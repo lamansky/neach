@@ -1,0 +1,37 @@
+{
+  "name": "neach",
+  "version": "1.0.0",
+  "description": "It’s like forEach, but nested.",
+  "keywords": [
+    "array",
+    "nested",
+    "each",
+    "forEach",
+    "loop"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/neach",
+  "repository": "lamansky/neach",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "vfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
